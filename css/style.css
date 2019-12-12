@@ -151,7 +151,7 @@ header {
     line-height: 36px;
     color: #fff;
     font-weight: 500;
-    letter-spacing: 0.5px;
+    letter-spacing: 1.5px;
     margin-bottom: 22px;
 }
 
@@ -160,4 +160,78 @@ header {
     line-height: 24px;
     color:#d3d2d2;
     margin-bottom:50px;
+}
+
+.default-btn {
+    font-family: 'Roboto', sans-serif;
+    border: 1px solid #ffc222;
+    border-right-width: 20px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #ffffff;
+    padding: 8px 30px 8px 24px;
+    font-weight: 500;
+    position: relative;
+    z-index:2;
+}
+
+.default-btn:after{
+    content: "\f105";
+    font-family:'icomoon';
+    position:absolute;
+    top:50%;
+    transform: translateY(-50%);
+    right:-12px;        
+}
+
+.slider{
+    position:relative;
+}
+
+.slider__inner{
+    position:relative;
+}
+
+.slick-btn {
+    position: absolute;
+    top: 70%;
+    z-index: 3;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #ffffff;
+    background-color: #ffc222;
+    cursor: pointer;
+    outline:none;
+}
+
+.slick-btn.slick-disabled {
+        background-color: transparent;
+        cursor:default;
+    }
+
+.slick-btn:before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.slick-next:before {
+    font-family: 'icomoon';
+    content:"\f105";
+    color:#fff;
+}
+
+.slick-prev:before {
+    font-family: 'icomoon';
+    content: "\f104";
+    color: #fff;
+}
+
+.slick-next {
+    right: 0;
+}
+
+.slick-prev{
+left:0;
 }
