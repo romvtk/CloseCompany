@@ -1,1 +1,6 @@
-$(Function(){})
+$(function () {
+
+    $('.slider__inner').slick();
+
+
+});
