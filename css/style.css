@@ -334,4 +334,35 @@ justify-content:space-between;
     font-family: 'Roboto', sans-serif;
 }
 
+.about {
+    background-image: url(../img/about.jpg);
+    background-size:cover;
+    background-position: center;
+    min-height: 300px;
+    background-repeat:no-repeat;
+    padding: 25px 0px 45px;
+}
 
+.about__inner{
+    max-width:545px;
+}
+
+.aboit__title {
+    font-family: 'Roboto', sans-serif;
+    padding: 10px 0px 25px;
+    font-size: 24px;
+    line-height: 24px;
+    color: white;
+    font-weight:500;
+}
+
+.about__text{
+    margin-bottom:30px;
+    letter-spacing:0.1px;
+    line-height:24px;
+    color:#d3d2d2;
+}
+
+.about-btn.default-btn:after {
+    color: #000;
+}
