@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/jquery.fancybox.min.css" />
     <link rel="stylesheet" href="css/slick.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css" />
 </head>
 <body>
     <header class="header">
@@ -346,9 +347,9 @@
                             Бесплатная консультация
                         </a>
                         <ul class="footer__list">
-                            <li><a href="tel:380963092145">+38 (096) 309 21 45</a></li>
+                            <li><a class="footer__phone" href="tel:380963092145">+38 (096) 309 21 45</a></li>
                             <li><a href="#">layout585@gmail.com</a></li>
-                            <li><a href="#">Киев, ул.Пушиной, 13</a></li>
+                            <li><a class="footer__adres" href="#">Киев, ул.Пушиной, 13</a></li>
                         </ul>
                     </div>
                 <div class="footer__map">
@@ -366,8 +367,11 @@
         </div>
     </footer>
     <div id="modal">
-        <h2>Hello</h2>
-        <p>You are awesome</p>
+        <form>
+            <input type="text" value="" placeholder="Ваше Имя" />
+            <input type="text" value="" placeholder="Ваш телефон" />
+            <input type="submit" value="Отправить" />
+        </form>
 
     </div>
 
